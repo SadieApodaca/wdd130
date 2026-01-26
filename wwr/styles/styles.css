@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light+Two&display=swap');
+
+#content {
+    max-width: 1600px;
+}
+#content {
+    margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
+}
+nav a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg {
+    text-align: center;
+}
+.button-box {
+    text-align: center
+}
+.home-grid {
+    text-align: center;
+    font-family: Shadows Into Light Two, Bradley Hand, sans-serif;
+}
+.home-title {
+    color: #fff;
+    font-family: Shadows Into Light Two, Bradley Hand, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb; 
+    font-family: Jost, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+header {
+    background-color:#264653;
+}
+nav a:hover {
+    background-color: #e76f51;
+    color: #fff;
+}
+.book {
+    background-color: #2a9d8f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join {
+    background-color: #2a9d8f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover {
+    background-color: #e76f51;
+    color: #fff;
+}
+.join:hover {
+    background-color: #e76f51;
+    color: #fff;
+}
+#background {
+    background-color: #999;
+}
+.msg {
+    background-color: #e9c46a;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: #fff;
+}
+.msg p {
+    color: #fff;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer {
+    background-color: #264653;
+    color: #fff;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#hero-img {
+    width: 100%;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
