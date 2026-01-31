@@ -6,25 +6,26 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #264653   ;
-  --secondary-color: #2a9d8f;
-  --accent1-color: #e9c46a;
-  --accent2-color: #f4a261;
+  --primary-color: #fefae0   ;
+  --secondary-color: #606c38;
+  --accent1-color: #283618;
+  --accent2-color: #bc6c25;
+  --accent3-color: #dda15e;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Shadows Into Light Two";
+  --heading-font: "Shadows Into Light Two", "Bradley Hand", sans-serif;
   --paragraph-font: Jost, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #e76f51;  /* headlines on a white background */ 
+  --headline-color-on-white: #283618;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #e76f51; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #606c38; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #264653  ;
+  --paragraph-background-color: #dda15e  ;
   --nav-link-color: #fff;
-  --nav-background-color: #2a9d8f;
+  --nav-background-color: #283618;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #e76f51;
+  --nav-hover-background-color: #dda15e;
 }
 
 
