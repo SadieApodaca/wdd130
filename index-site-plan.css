@@ -137,8 +137,8 @@ nav a:hover {
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
     ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
+    ".left . center right ."
+    "page2 page2 page3 page3 page4 page4";
 }
 .sitemap > div {
   text-align: center;
@@ -157,6 +157,11 @@ nav a:hover {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
+}
+.sm-page4 {
+    grid-area: page4;
+    background-color: #ccc;
+    line-height: 3em;
 }
 .top {
   grid-area: top;
