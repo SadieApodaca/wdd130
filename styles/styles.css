@@ -1,4 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.logo {
+    width: 80px;
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 20px;
+}
 img {
     width: 50px;
-    height: 50px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #4a5759;
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    z-index: 1;
+    margin-top: -10px;
+}
+body {
+    background-color: #f7e1d7;
+}
+nav {
+    display: flex;
+    font-family: "Sour Gummy";
+    font-size: 1.2em;
+}
+nav a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color:#dedbd2;
+    color: black;
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4a5759;
+}
+footer a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: "Sour Gummy";
+}
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-family: "Noto Sans";
+    max-width:1600px;
+    margin: 0 auto; 
+}
+#about, #wwr, #ice {
+    background-color: #dedbd2;
+    border: 5px solid #b0c4b1;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+#about {
+    width: 80%;
+    grid-column: 1/2;
+}
+#wwr {
+    width: 80%;
+    grid-column: 2/3;
+}
+#ice {
+    width: 80%;
+    grid-column: 3/4;
+}
+.icon {
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50%);
+}
+p {
+    padding: 0px 80px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 160px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    font-family: "Sour Gummy";
+}
+#hero-img {
+    width: 100%;
+    opacity: 50%;
 }

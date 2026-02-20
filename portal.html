@@ -7,7 +7,7 @@
         <link href="styles/styles.css" rel="stylesheet">
     </head>
     <header>
-        <img src="indeximages/sadie.png" alt="Logo image">
+        <img class="logo" src="indeximages/sadie.png" alt="Logo image">
         <nav>
             <a href="#">Home</a>
             <a href="#">About Me</a>
@@ -16,20 +16,46 @@
         </nav>
     </header>
     <body>
-        <h2>About Me</h2>
-        <p>Lorum ipsum</p>
-        <h2>WWR</h2>
-        <p>Lorum Ipsum</p>
-        <h2>ICE</h2>
-        <p>Lorum ipsum</p>
+        <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="indeximages/IMG_0282.JPG" alt="family photo">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Sadie Apodaca</h1>
+            <h4>Software Engineering Student</h4>
+        </section>
+    </div>
+        <div id="main">
+            <section id="about">
+                <img class="icon" src="indeximages/portrait.JPG" alt="image of Sadie">
+                <h2>About Me</h2>
+                <p>I am currently a student at BYU-I studying software engineering. I hope to work in development as a qulaity assurance engineer.
+                    I am from Houston, TX but have loved living here in Idaho. I enjoy problem solving and critical thinking games. In my free time I like to 
+                    do arts and crafts. I am working on making matching sweaters for everyone in my family. </p>
+            </section>    
+            <section id="wwr">
+                <img class="icon" src="wwr/images/logo.png" alt="wwr logo">
+                <h2>WWR</h2>
+                <p>For the first half of the semester we worked on creating a home page for White Water Rafting.
+                    In this project we learned how to structure our html to make a webpage. We then worked on 
+                    adding the css to make it appealing. We got to explore many different techniques.</p>
+            </section>
+            <section id="ice">
+                <img class="icon" src="indeximages/ice.jpg" alt="ice">
+                <h2>ICE</h2>
+                <p>Throughout the semester we worked on exercises in class. We were given a challenge or prompt 
+                    of some sort to complete. Being in class gave us the opportunity to work with other classmates 
+                    or ask the teacher for help if we got stuck. During the first ice challenge I felt completely 
+                    lost, but as we did more I gained confidence. I began looking forward to the next challenges.</p>
+            </section>
+        </div>
     </body>
     <footer>
-        <img src="indeximages/sadie.png" alt="Logo image">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">WWR</a>
-            <a href="#">ICE</a>
+        <img class="logo" src="indeximages/sadie.png" alt="Logo image">
+        <p><a href="#">Home</a></p>
+        <p><a href="#">About Me</a></p>
+        <p><a href="#">WWR</a></p>
+        <p><a href="#">ICE</a></p>
             <div class="social">
             <a href="www.linkedin.com/in/sadie-apodaca" target="_blank">
                 <img src="indeximages/linkedin.png" alt="linkedin icon">
