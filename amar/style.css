@@ -2,11 +2,12 @@
 header {
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .navbar {
   overflow: hidden;
   background-color: #00005B;
-  font-family: Arial;
+  font-family: Roboto;
 }
 .navbar a {
   float: right;
@@ -128,11 +129,25 @@ h4 {
 }
 .homegrid {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 .hero {
-    width: 100%;
+    position: relative;
+    width: 400px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, -150%);
+    color: white;
 }
 .letter {
-    width: 100%;
+    width: 400px;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
