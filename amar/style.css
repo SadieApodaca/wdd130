@@ -8,15 +8,22 @@ header {
   overflow: hidden;
   background-color: #00005B;
   font-family: Roboto;
+  height: 50px;
 }
-
-.dropdown {
+.navbar a {
   float: right;
   font-size: 16px;
   color: #FAFAFA;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+#logonav {
+    float: left;
+    align-self: center;
+}
+
+.dropdown {
   float: right;
   overflow: hidden;
 }
@@ -57,12 +64,12 @@ header {
   display: block;
 }
 .logo {
-    width: 50px;
-    padding: 5px;
+    width: 40px;
 }
 body {
     background-color: #FAFAFA;
     font-family: Roboto;
+    margin: 0 auto;
 }
 p {
     font-family: Roboto;
@@ -134,7 +141,7 @@ h4 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
-    padding: 10px;
+    padding: 50px;
     text-align: justify;
     font-size: 1.5em;
 }
@@ -153,7 +160,7 @@ h4 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-108%, -108%);
+    transform: translate(-106%, -106%);
     color: white;
     font-size: 1.75em;
 }
