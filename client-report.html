@@ -6,16 +6,88 @@
     <title>Client Report</title>
 </head>
 <body>
-    <h2>How did you decide what content and images to use for your site plan?</h2>
-    <h2>How did you communicate with your developer? Was there any issues with communication?</h2>
-    <h2>Did your developer meet your expectations for your site?</h2>
-    <h2>What will you do differently next time you hire a developer to do a project for you?</h2>
-    <h2>How did you communicate with your client? Was there any issues?</h2>
-    <h2>How did you handle publishing your clients site and sharing it with the client?</h2>
-    <h2>How was your experience with managing your site with GitHub?</h2>
-    <h2>What was the most challenging part of this project for you? Were you able to overcome it?</h2>
-    <h2>What did you enjoy most about this project?</h2>
-    <h2>What would you do differently if you could do the project again?</h2>
-    <h2>Do you feel more confident in working on real-world projects after this experience? Explain.</h2>
+    <h1>Final Project Report</h1>
+    <div class="grid">
+        <div class="client">
+        <h2>Client Questions</h2>
+        <h3>How did you decide what content and images to use for your site plan?</h2>
+        <p>I decided the best idea I could come up with is using working around a passion I have. I enjoy making crafts a lot and my mother is always trying to talk me into selling my finished projects, so I thought this project would be a good chance to see what that might look like. Having someone else create the website for me really helped since I tend to become too narrow minded and get frustrated.</p>
+        <h3>How did you communicate with your developer? Were there any issues with communication?</h2>
+        <p>My developer seemed confident in my siteplan as he didn't have many questions for me. We often touched base over text or in class. I don't feel like he was ever unreachable.</p>
+        <h3>Did your developer meet your expectations for your site?</h2>
+        <p>I think the site came out great. It definitely came out better than if I had done it myself. I would probably make tweaks as I start using it, but just because I don't know what features are needed and not needed for my purpose.</p>
+        <h3>What will you do differently next time you hire a developer to do a project for you?</h2>
+        <p>I am not sure what else I would hire a developer for personally. I think this experience went well and I can't say I would change anything, but I do know that communication will always be the most important factor.</p>
+        </div>
+        <div class="developer">
+        <h2>Developer Questions</h2>
+        <h3>How did you communicate with your client? Was there any issues?</h2>
+        <p>We often spoke in class together and we did use text or email occasionally as well.</p>
+        <h3>How did you handle publishing your clients site and sharing it with the client?</h2>
+        <p>I have it hosted on GitHub as of right now and shared the zip folder with all the completed work and files that way he can host it himself if he would like. I think he should continue to add to his website. He had a great idea and it was super fun to code.</p>
+        <h3>How was your experience with managing your site with GitHub?</h2>
+        <p>I haven't had any issues with hosting on GitHub other than if the site itself has an issue. Learning how to use it was difficult at first, but I got the hang of it quickly.</p>
+        </div>
+        <div class="general">
+        <h2>General Questions</h2>
+        <h3>What was the most challenging part of this project for you? Were you able to overcome it?</h2>
+        <p>I had to learn some new skills in order to accomplish what my client was asking for. It was challenging, but exciting at the same time. It ended up being a lot of trial and error which on a single monitor can become annoying.</p>
+        <h3>What did you enjoy most about this project?</h2>
+        <p>I really enjoyed testing out new concepts and seeing what I could do to make the website look more professional. </p>
+        <h3>What would you do differently if you could do the project again?</h2>
+        <p>I'm not sure what I could do differently. I do wish to learn more skills and concepts, but I feel like most of our ideas were pretty simple since we knew a classmate would be working on it. I would like to continue to work on my personal site to see how well I can make it as I continnue to learn.</p>
+        <h3>Do you feel more confident in working on real-world projects after this experience? Explain.</h2>
+        <p>I had a lot of fears about this project. I know I was not doing poorly in the class, but I didn't feel like I had the skills to produce a website of someone else's expectations. I worried that it would take me a lot of time and struggle. I think I did get lucky with my client's concept being quite simple. I was still challenged with some of the details he wanted, but I became much more confident by the end of the project. </p>
+        </div>
+    </div>
 </body>
 </html>
+
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        margin: 20px;
+    }
+    body {
+        background-color: #e1eff6;
+    }
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .client {
+        background-color: #cfe8ef;
+        grid-column: 1/3;
+        border: 5px solid white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .developer {
+        background-color: #c6dbf0;
+        grid-column: 2/4;
+        grid-row: 2/3;
+        border: 5px solid white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .general {
+        background-color: #aed1e6;
+        grid-column: 3/5;
+        border: 5px solid white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+
+
+
+
+</style>
